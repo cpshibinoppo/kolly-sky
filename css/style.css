@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+/* navbar */
+header{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    padding: 7px;
+    text-transform: uppercase;
+    display: flex;
+    font-weight: 500;
+    transition: color 0.4s ease;
+}
+
+.navbar ul li a:hover{
+    color: #d2401e;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.4s ease;
+}
+.user-div ul{
+    list-style: none;
+    display: flex;
+}
+.user-div ul li{
+    padding: 7px;
+    text-transform: capitalize;
+}
+.user-div ul li a:hover{
+    color: #d2401e;
+}
+.dropdown:hover{
+    color: #d2401e;
+}
+.dropdown-content{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+.dropdown:hover .dropdown-content {
+    display: grid;
+    visibility: visible;
+  opacity: 1;
+}
+.dropdown-content a{
+    text-decoration: none;
+    color: #7f7f7f;
+}
+.dropdown-content a:hover{
+    color: #d2401e;
+}
