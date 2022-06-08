@@ -208,13 +208,17 @@ color: #d2401e;
         top: 140px;
         right: 150px;
     }
-    .slider1p{
+    .con-slider2{
+        top: 140px;
+        left: 200px;
+    }
+    .slider1p,.slider2p{
         font-size: 18px;
     }
-    .slider1h1{
+    .slider1h1,.slider2h1{
         font-size: 60px;
     }
-    .slider1button{
+    .slider1button,.slider2button{
         padding: 15px 25px;
     }
 }
@@ -223,13 +227,17 @@ color: #d2401e;
         top: 110px;
         right: 120px;
     }
-    .slider1p{
+    .con-slider2{
+        top: 110px;
+        left: 170px;
+    }
+    .slider1p,.slider2p{
         font-size: 15px;
     }
-    .slider1h1{
+    .slider1h1,.slider2h1{
         font-size: 40px;
     }
-    .slider1button{
+    .slider1button,.slider2button{
         padding: 10px 15px;
         font-size: 14px;
         margin-top: 5px;
@@ -240,13 +248,17 @@ color: #d2401e;
         top: 45px;
         right: 70px;
     }
-    .slider1p{
+    .con-slider2{
+        top: 45px;
+        left: 120px;
+    }
+    .slider1p,.slider2p{
         font-size: 10px;
     }
-    .slider1h1{
+    .slider1h1,.slider2h1{
         font-size: 25px;
     }
-    .slider1button{
+    .slider1button,.slider2button{
         padding: 10px 10px;
         font-size: 9px;
         margin-top: 5px;
@@ -257,13 +269,17 @@ color: #d2401e;
         top: 30px;
         right: 70px;
     }
-    .slider1p{
+    .con-slider2{
+        top: 30px;
+        left: 120px;
+    }
+    .slider1p,.slider2p{
         font-size: 8px;
     }
-    .slider1h1{
+    .slider1h1,.slider2h1{
         font-size: 20px;
     }
-    .slider1button{
+    .slider1button,.slider2button{
         padding: 8px 8px;
         font-size: 8px;
         margin-top: 0;
