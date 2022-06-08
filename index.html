@@ -8,6 +8,7 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Document</title>
 </head>
 
@@ -59,7 +60,7 @@
                         <div class="row userrow">
                             <div class="user-div navbar">
                                 <ul>
-                                    <li onclick="menushow()"><i class='bx bx-menu'></i></li>
+                                    <li><a onclick="menushow()"><i class='bx bx-menu'></i></a></li>
                                     <li><a href=""><i class='bx bx-user'></i><span> my account</span> </a></li>
                                     <li><a href=""><i class='bx bx-search'></i><span>find your search</span> </a></li>
                                     <li><a href=""><i class='bx bx-cart'></i><span>cart</span> </a></li>
@@ -82,8 +83,39 @@
                 </ul>
             </nav>
         </div>
+        <!-- slider start -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <div class="col-3 con-slider1 ">
+                        <p class="slider1p animate__fadeInUp animate__animated animate__bounce">Get up to 60% off</p>
+                        <h1 class="slider1h1 animate__bounceInUp animate__animated animate__bounce ">Printed covers</h1>
+                        <button class="slider1button nimate__bounceInUp animate__animated animate__bounce">view collection</button>
+                    </div>
+                    <img src="img/slider1.webp" class="d-block w-100" alt="...">
+                </div>
+                <!-- <div class="carousel-item ">
+                    <div class="col-3 con-slider2">
+                        <p class="slider2p nimate__bounceInUp animate__animated animate__bounce">Get up to 60% off</p>
+                        <h1 class=" slider2h1 nimate__bounceInUp animate__animated animate__bounce">nature printed</h1>
+                        <button class="slider2button nimate__bounceInUp animate__animated animate__bounce">view collection</button>
+                    </div>
+                    <img src="img/slider2.webp" class="d-block w-100" alt="...">
+                </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <i class='bx bx-left-arrow-alt' aria-hidden="true"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <i class='bx bx-right-arrow-alt' aria-hidden="true"></i>
+            </button>
+        </div>
+        <!-- slider end-->
     </div>
-    <source src="bootstrap-5.2.0-beta1-dist/js/bootstrap.js" />
+
+    <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
     <script src="js/main.js"></script>
 </body>
 

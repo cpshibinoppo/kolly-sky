@@ -19,7 +19,9 @@ header{
     font-weight: 500;
     transition: color 0.4s ease;
 }
-
+.img-fluid{
+    margin-left:25px ;
+}
 .navbar ul li a:hover{
     color: #d2401e;
 }
@@ -48,13 +50,13 @@ header{
     background: #fff;
     width: 100%;
     visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.3s linear;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
 }
 .dropdown:hover .dropdown-content {
     display: grid;
     visibility: visible;
-  opacity: 1;
+    opacity: 1;
 }
 .dropdown-content a{
     text-decoration: none;
@@ -78,6 +80,7 @@ header{
     opacity: 0;
     visibility: hidden;
     transition: visibility 0s, opacity 0.3s linear;
+    z-index: 2;
 }
 
 .closex{
@@ -136,3 +139,134 @@ color: #d2401e;
     }
     
 }
+/* end navbar */
+/* slider start */
+.bx-left-arrow-alt,.bx-right-arrow-alt{
+    background: #fff;
+    color: #d2401e;
+    padding: 8px;
+    border-radius: 100%;
+    font-size: 20px;
+}
+.bx-left-arrow-alt:hover,.bx-right-arrow-alt:hover{
+    color: #fff;
+    background-color: #d2401e;
+}
+.con-slider1{
+    position: absolute;
+    top: 220px;
+    right: 200px;
+}
+.slider1p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.slider1h1{
+    color: #282828;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.slider1button,.slider2button{
+    border: none;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-weight: 600;
+    padding: 22px 43px;
+    line-height: 1;
+    transition: background 0.5s ease;
+    transition: color 0.3s ease;
+}
+.slider1button:hover{
+    color: #fff;
+    background: #d2401e;
+}
+.con-slider2{
+    position: absolute;
+    top: 230px;
+    left: 250px;
+}
+.slider2p{
+    color: #f7dc2f;
+    font-weight: 500;
+    font-size: 18px;
+}
+.slider2h1{
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.slider2button:hover{
+    background: #f7dc2f;
+    color: #fff;
+}
+@media (max-width:1024px){
+    .con-slider1{
+        top: 140px;
+        right: 150px;
+    }
+    .slider1p{
+        font-size: 18px;
+    }
+    .slider1h1{
+        font-size: 60px;
+    }
+    .slider1button{
+        padding: 15px 25px;
+    }
+}
+@media (max-width:768px){
+    .con-slider1{
+        top: 110px;
+        right: 120px;
+    }
+    .slider1p{
+        font-size: 15px;
+    }
+    .slider1h1{
+        font-size: 40px;
+    }
+    .slider1button{
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+@media (max-width:500px){
+    .con-slider1{
+        top: 45px;
+        right: 70px;
+    }
+    .slider1p{
+        font-size: 10px;
+    }
+    .slider1h1{
+        font-size: 25px;
+    }
+    .slider1button{
+        padding: 10px 10px;
+        font-size: 9px;
+        margin-top: 5px;
+    }
+}
+@media (max-width:376px){
+    .con-slider1{
+        top: 30px;
+        right: 70px;
+    }
+    .slider1p{
+        font-size: 8px;
+    }
+    .slider1h1{
+        font-size: 20px;
+    }
+    .slider1button{
+        padding: 8px 8px;
+        font-size: 8px;
+        margin-top: 0;
+    }
+}
+/* end slider */
