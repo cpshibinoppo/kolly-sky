@@ -63,3 +63,67 @@ header{
 .dropdown-content a:hover{
     color: #d2401e;
 }
+/* menu */
+.menucol{
+    list-style: none;
+    margin-top: 10px;
+}
+#menumaindiv{
+    position: absolute;
+    background: #fff;
+    left: -25px;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px, rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px, rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px;
+    height: 100vh;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+
+.closex{
+    text-align: right;
+}
+.bx-x{
+    font-size: 25px;
+}
+.menudrop{
+    float: right;
+}
+.menuli{
+    font-size: 16px;
+    padding-top: 5px;
+    border-top: 1px solid #e2e2e2;
+}
+.menuli a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.bx-menu{
+    display: none;
+}
+/* menu end */
+@media (max-width:1024px){
+    span{
+        display: none;
+    }
+    .userrow{
+        float: right;
+    }
+}
+@media (max-width:768px){
+    .navbar ul li{
+        padding: 5px;
+    }
+    .user-div ul li{
+        padding: 5px;
+        padding-left: 10px;
+        font-size: 18px;
+    }
+    .navbarrow{
+        display: none !important;
+    }
+    .bx-menu{
+        display: block;
+    }
+}
