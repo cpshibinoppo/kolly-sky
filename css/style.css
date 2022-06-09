@@ -457,6 +457,13 @@ right: 90px !important;
 }
 }
 @media (max-width:426px){
+    .banner1con{
+        top: 35px;
+    }
+    .banner2con{
+        top: 35px;
+        right: 70px;
+    }
     .banner1con h6,.banner2con h6{
         font-size: 20px;
     }
@@ -479,7 +486,7 @@ right: 90px !important;
         right: 60px;
     }
     .banner1button,.banner2button{
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 /* banner end d */
