@@ -335,7 +335,6 @@ color: #d2401e;
     position: relative;
 }
 .banner1div img{
-    position: absolute;
     top: 0px;
     left: 0;
     z-index: -1;
@@ -402,13 +401,17 @@ color: #d2401e;
     background: #d2401e;
     color: #f9df32;
 }
-@media (max-width:1100px){
+.banner2button:hover{
+    background: #1e7cbf;
+    color: #f9df32;
+}
+@media (min-width:1440px){
  .banner1con{
-    top: 45px;
+    top: 45px !important;
 }
 .banner2con{
-top: 40px;
-right: 90px;
+top: 40px !important;
+right: 90px !important;
 }
 .banner1con h6,.banner2con h6{
     font-size: 28px;
@@ -420,6 +423,17 @@ right: 90px;
     font-size: 13px;
 }
 }
+@media (min-width:1024px){
+    .banner1con{
+        top: 10px;
+        left: 70px !important;
+    }
+    .banner2con{
+        top: 10px;
+        right: 100px !important;
+    }
+}
+
 @media (max-width:990px){
 .banner1div img{
     position: unset;
@@ -427,20 +441,18 @@ right: 90px;
 .banner2div img{
     position: unset;
 }
-.bannerrow{
-    text-align: center !important;
-}
+
 .bannerpadding{
     padding-top: 25px !important;
 }
 }
 @media (min-width:768px){
     .banner1con{
-        top: 90px;
-        left: 120px;
+        /* top: 90px; */
+        /* left: 120px; *
     }
     .banner2con{
-        top: 100px;
+        /* top: 100px; */
         right: 130px;
 }
 }
