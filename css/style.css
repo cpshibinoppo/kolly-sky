@@ -52,6 +52,7 @@ header{
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.3s linear;
+    z-index: 2;
 }
 .dropdown:hover .dropdown-content {
     display: grid;
@@ -266,22 +267,43 @@ color: #d2401e;
 }
 @media (max-width:376px){
     .con-slider1{
-        top: 30px;
-        right: 70px;
+        top: 38px;
+        right: 65px;
     }
     .con-slider2{
-        top: 30px;
-        left: 70px;
+        top: 38px;
+        left: 65px;
     }
     .slider1p,.slider2p{
-        font-size: 8px;
+        font-size: 7px;
     }
     .slider1h1,.slider2h1{
-        font-size: 20px;
+        font-size: 17px;
     }
     .slider1button,.slider2button{
-        padding: 8px 8px;
-        font-size: 8px;
+        padding: 7px 7px;
+        font-size: 7px;
+        margin-top: 0;
+    }
+}
+@media (max-width:321px){
+    .con-slider1{
+        top: 25px;
+        right: 53px;
+    }
+    .con-slider2{
+        top: 25px;
+        left: 53px;
+    }
+    .slider1p,.slider2p{
+        font-size: 7px;
+    }
+    .slider1h1,.slider2h1{
+        font-size: 17px;
+    }
+    .slider1button,.slider2button{
+        padding: 7px 7px;
+        font-size: 7px;
         margin-top: 0;
     }
 }
