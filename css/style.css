@@ -264,6 +264,9 @@ color: #d2401e;
         font-size: 9px;
         margin-top: 5px;
     }
+    .sliderdowndiv h6{
+        font-size: 17px !important;
+    }
 }
 @media (max-width:376px){
     .con-slider1{
@@ -284,6 +287,9 @@ color: #d2401e;
         padding: 7px 7px;
         font-size: 7px;
         margin-top: 0;
+    }
+    .sliderdowndiv h6{
+        font-size: 17px !important;
     }
 }
 @media (max-width:321px){
@@ -320,6 +326,5 @@ color: #d2401e;
 }
 .sliderdowndiv i{
     color: #d2401e;
-    padding-left: 2px;
 }
 /* slider down end */
