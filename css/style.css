@@ -425,5 +425,8 @@ right: 90px;
 .banner2div img{
     position: unset;
 }
+.bannerrow{
+    text-align: center !important;
+}
 }
 /* banner end */
