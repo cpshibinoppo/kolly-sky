@@ -339,6 +339,7 @@ color: #d2401e;
     top: 0px;
     left: 0;
     z-index: -1;
+    margin: 0;
 }
 .banner1con{
     position: absolute;
@@ -381,6 +382,7 @@ color: #d2401e;
     top: 0px;
     left: 0;
     z-index: -1;
+    margin: 0;
 }
 .banner2button{
     font-size: 15px;
@@ -412,10 +414,10 @@ right: 90px;
     font-size: 28px;
 }
 .banner1con h2,.banner2con h2{
-    font-size: 33px;
+    font-size: 32px;
 }
 .banner1button,.banner2button{
-    font-size: 14px;
+    font-size: 13px;
 }
 }
 @media (max-width:990px){
@@ -428,5 +430,44 @@ right: 90px;
 .bannerrow{
     text-align: center !important;
 }
+.bannerpadding{
+    padding-top: 25px !important;
 }
-/* banner end */
+}
+@media (min-width:768px){
+    .banner1con{
+        top: 90px;
+        left: 120px;
+    }
+    .banner2con{
+        top: 100px;
+        right: 130px;
+}
+}
+@media (max-width:426px){
+    .banner1con h6,.banner2con h6{
+        font-size: 20px;
+    }
+    .banner1con h2,.banner2con h2{
+        font-size: 26px;
+    }
+    .banner1button,.banner2button{
+        font-size: 12px;
+        padding: 8px 8px;
+        margin-top: 7px;
+    }
+}
+@media (max-width:376px){
+    .banner1con{
+        top: 10px;
+        left: 30px;
+    }
+    .banner2con{
+        top: 10px;
+        right: 60px;
+    }
+    .banner1button,.banner2button{
+        font-size: 10px;
+    }
+}
+/* banner end d */
