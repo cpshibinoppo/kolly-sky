@@ -689,46 +689,6 @@ header {
 .mystyle:hover {
     color: #d2401e;
 }
-
-/* @media (max-width:1025px) {
-    .tabscon{
-        text-align: center;
-        display: block;
-    }
-    .tabsbtn{
-        padding-top: 30px;
-        margin-left: 85px;
-    }
-}
-@media (max-width:973px) {
-
-    .tabsbtn ul li {
-    padding-left: 70;
-}
-}
-@media (max-width:768px) {
-    .tabsbtn {
-        margin-left: 0;
-    }
-}
-@media only screen and (max-width: 500px){ 
-    .tabsbtn ul li{
-        font-size: 8px !important;
-        color: #f7dc2f;
-        padding-left: 0 !important;
-    }
-}
-@media only screen and (max-width: 375px){
-    .btn1style {
-        padding: 5px 7px;
-    } 
-}
-@media only screen and (max-width: 321px){
-    .tabsbtn ul li {
-        font-size: 5px !important;
-    }
-} */
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .tabsbtn ul li {
         padding-left: 0px;
@@ -747,9 +707,10 @@ header {
     .tabsbtn ul{
         padding-left: 0;
     }
+    .tabsbtn ul{
+        padding-left: 200px;
+    }
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .tabsbtn ul li {
         padding-left: 0px;
@@ -768,8 +729,6 @@ header {
         padding-left: 0;
     }
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .tabsbtn ul li {
         padding-left: 0px;
@@ -778,23 +737,17 @@ header {
         padding-left: 0;
     }
 }
-
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .tabsbtn ul li {
         padding-left: 0px;
     }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .tabscon{
         display: flex;
         text-align: center;
     }
 }
-
-/* phone slides end */
 @media screen and (max-width: 768px) {
     .tabsbtn ul{
       overflow-x: scroll;
@@ -806,7 +759,6 @@ header {
     ::-webkit-scrollbar {
         display: none;
     }
-    .tabsbtn ul{
-        padding-left: 200px;
-    }
+    
   }
+/* phone slides end */
