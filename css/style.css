@@ -684,7 +684,7 @@ header {
 .mystyle:hover{
     color: #d2401e;
 }
-@media (min-width:1024px) {
+@media (max-width:1025px) {
     .tabscon{
         text-align: center;
         display: block;
@@ -692,6 +692,34 @@ header {
     .tabsbtn{
         padding-top: 30px;
         margin-left: 85px;
+    }
+}
+@media (max-width:973px) {
+
+    .tabsbtn ul li {
+    padding-left: 70;
+}
+}
+@media (max-width:768px) {
+    .tabsbtn {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 500px){ 
+    .tabsbtn ul li{
+        font-size: 8px !important;
+        color: #f7dc2f;
+        padding-left: 0 !important;
+    }
+}
+@media only screen and (max-width: 375px){
+    .btn1style {
+        padding: 5px 7px;
+    } 
+}
+@media only screen and (max-width: 321px){
+    .tabsbtn ul li {
+        font-size: 5px !important;
     }
 }
 
