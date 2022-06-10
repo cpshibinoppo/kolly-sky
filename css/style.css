@@ -646,11 +646,12 @@ header {
 .tabsbtn ul li {
     padding-left: 40px;
 }
-.tabsbtn ul li a:hover{
+
+.tabsbtn ul li a:hover {
     color: #d2401e;
 }
 
-.btn1style{
+.btn1style {
     padding: 10px 15px;
     background-color: #fff;
     border: none;
@@ -661,7 +662,8 @@ header {
     text-decoration: none;
 }
 
-.btnstyle,.car1 {
+.btnstyle,
+.car1 {
     color: black;
     padding: 10px 15px;
     border: none;
@@ -669,6 +671,7 @@ header {
     font-weight: 600;
     text-decoration: none;
 }
+
 .mystyle {
     padding: 10px 15px;
     background-color: #fff;
@@ -678,13 +681,16 @@ header {
     color: #d2401e;
     font-weight: 600;
 }
-.btn1style:hover{
+
+.btn1style:hover {
     color: #d2401e;
 }
-.mystyle:hover{
+
+.mystyle:hover {
     color: #d2401e;
 }
-@media (max-width:1025px) {
+
+/* @media (max-width:1025px) {
     .tabscon{
         text-align: center;
         display: block;
@@ -721,6 +727,78 @@ header {
     .tabsbtn ul li {
         font-size: 5px !important;
     }
+} */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .tabsbtn ul li {
+        padding-left: 0px;
+        font-size: 14px;
+    }
+    .tabscon{
+        display: block;
+        text-align: center;
+    }
+    .tabsbtn{
+        padding-top: 20px;
+    }
+    .tabsrow .tabsbtn ul{
+        justify-content: center;
+    } 
+    .tabsbtn ul{
+        padding-left: 0;
+    }
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .tabsbtn ul li {
+        padding-left: 0px;
+    }
+    .tabscon{
+        display: block;
+        text-align: center;
+    }
+    .tabsbtn{
+        padding-top: 20px;
+    }
+    .tabsrow .tabsbtn ul{
+        justify-content: center;
+    } 
+    .tabsbtn ul{
+        padding-left: 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .tabsbtn ul li {
+        padding-left: 0px;
+    }
+    .tabsbtn ul{
+        padding-left: 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .tabsbtn ul li {
+        padding-left: 0px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
 /* phone slides end */
+@media screen and (max-width: 768px) {
+    .tabsbtn ul{
+      overflow-x: scroll;
+      white-space: nowrap;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+  }
