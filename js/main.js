@@ -45,3 +45,4 @@ function show3() {
     element.classList.add("mystyle");
   }
 /* Tabs end */
+var swiper = new Swiper(".mySwiper", {});
