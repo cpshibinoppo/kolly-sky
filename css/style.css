@@ -684,5 +684,15 @@ header {
 .mystyle:hover{
     color: #d2401e;
 }
+@media (min-width:1024px) {
+    .tabscon{
+        text-align: center;
+        display: block;
+    }
+    .tabsbtn{
+        padding-top: 30px;
+        margin-left: 85px;
+    }
+}
 
 /* phone slides end */
