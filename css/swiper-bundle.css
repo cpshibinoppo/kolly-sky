@@ -25,7 +25,6 @@
   position: relative;
   overflow: hidden;
   list-style: none;
-  padding: 0;
   /* Fix of Webkit flickering */
   z-index: 1;
 }
