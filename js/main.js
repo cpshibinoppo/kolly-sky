@@ -81,3 +81,4 @@ function lovecolor4() {
         one.style.color = 'black';
     }
 }
+
