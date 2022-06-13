@@ -49,3 +49,35 @@ var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 30,
 });
+function lovecolor1(){
+    var one = document.getElementById('1');
+    if(one.style.color === 'black'){
+        one.style.color = 'red';
+    }else if(one.style.color = 'red'){
+        one.style.color = 'black';
+    }
+}
+function lovecolor2(){
+    var one = document.getElementById('2');
+    if(one.style.color === 'black'){
+        one.style.color = 'red';
+    }else if(one.style.color = 'red'){
+        one.style.color = 'black';
+    }
+}
+function lovecolor3(){
+    var one = document.getElementById('3');
+    if(one.style.color === 'black'){
+        one.style.color = 'red';
+    }else if(one.style.color = 'red'){
+        one.style.color = 'black';
+    }
+}
+function lovecolor4(){
+    var one = document.getElementById('4');
+    if(one.style.color === 'black'){
+        one.style.color = 'red';
+    }else if(one.style.color = 'red'){
+        one.style.color = 'black';
+    }
+}

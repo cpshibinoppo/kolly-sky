@@ -783,15 +783,24 @@ header {
     position: absolute;
     top: 10px;
     left: 10px;
+    color: black;
 }
 @media only screen and (min-width: 1200px) {
 .card{
     width: 14rem !important;
-}
+} 
 }
 @media only screen and (min-width: 992px) {
     .card{
         width: 14rem !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .cardrow{
+    white-space: nowrap;
+    display: flex !important;
+    overflow-y: scroll;
+    flex-wrap: nowrap !important;
     }
 }
 
