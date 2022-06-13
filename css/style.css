@@ -689,118 +689,167 @@ header {
 .mystyle:hover {
     color: #d2401e;
 }
+
 @media only screen and (max-width: 600px) {
     .tabsbtn ul li {
         padding-left: 0px;
         font-size: 14px;
     }
-    .tabscon{
+
+    .tabscon {
         display: block;
         text-align: center;
     }
-    .tabsbtn{
+
+    .tabsbtn {
         padding-top: 20px;
     }
-    .tabsrow .tabsbtn ul{
+
+    .tabsrow .tabsbtn ul {
         justify-content: center;
-    } 
-    .tabsbtn ul{
+    }
+
+    .tabsbtn ul {
         padding-left: 0;
     }
-    .tabsbtn ul{
+
+    .tabsbtn ul {
         padding-left: 200px;
     }
 }
+
 @media only screen and (min-width: 600px) {
     .tabsbtn ul li {
         padding-left: 0px;
     }
-    .tabscon{
+
+    .tabscon {
         display: block;
         text-align: center;
     }
-    .tabsbtn{
+
+    .tabsbtn {
         padding-top: 20px;
     }
-    .tabsrow .tabsbtn ul{
+
+    .tabsrow .tabsbtn ul {
         justify-content: center;
-    } 
-    .tabsbtn ul{
+    }
+
+    .tabsbtn ul {
         padding-left: 0;
     }
 }
+
 @media only screen and (min-width: 768px) {
     .tabsbtn ul li {
         padding-left: 0px;
     }
-    .tabsbtn ul{
+
+    .tabsbtn ul {
         padding-left: 0;
     }
 }
+
 @media only screen and (min-width: 992px) {
     .tabsbtn ul li {
         padding-left: 0px;
     }
 }
+
 @media only screen and (min-width: 1200px) {
-    .tabscon{
+    .tabscon {
         display: flex;
         text-align: center;
     }
 }
+
 @media screen and (max-width: 768px) {
-    .tabsbtn ul{
-      overflow-x: scroll;
-      white-space: nowrap;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      
+    .tabsbtn ul {
+        overflow-x: scroll;
+        white-space: nowrap;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
     }
+
     ::-webkit-scrollbar {
         display: none;
     }
-    
-  }
+
+}
+
 /* phone slides end */
 /* case slider start */
 
-.card{
-    border: none !important; 
+.card {
+    border: none !important;
 }
-.cardrow{
+
+.cardrow1 {
     text-align: -webkit-center;
 }
+
 /* .card1{
     padding-left: 15px;
 } */
-.card img{
+.card img {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.card-body{
+
+.card-body {
     text-align: center;
 }
-.card i{
+
+.card i {
     position: absolute;
     top: 10px;
     left: 10px;
     color: black;
 }
-@media only screen and (min-width: 1200px) {
-.card{
-    width: 14rem !important;
-} 
+.cardrow2{
+    display: none !important;
+    text-align: -webkit-center;
 }
-@media only screen and (min-width: 992px) {
-    .card{
+.cardrow3 {
+    display: none !important;
+    text-align: -webkit-center;
+}
+.add{
+    display: flex !important;
+}
+
+@media only screen and (min-width: 1200px) {
+    .card {
         width: 14rem !important;
     }
 }
+
+@media only screen and (min-width: 992px) {
+    .card {
+        width: 14rem !important;
+    }
+}
+
 @media only screen and (max-width: 600px) {
-    .cardrow{
-    white-space: nowrap;
-    display: flex !important;
-    overflow-y: scroll;
-    flex-wrap: nowrap !important;
+    .cardrow1 {
+        white-space: nowrap;
+        display: flex !important;
+        overflow-y: scroll;
+        flex-wrap: nowrap !important;
+    }
+
+    .cardrow2 {
+        white-space: nowrap;
+        display: flex !important;
+        overflow-y: scroll;
+        flex-wrap: nowrap !important;
+    }
+    .cardrow3 {
+        white-space: nowrap;
+        display: flex !important;
+        overflow-y: scroll;
+        flex-wrap: nowrap !important;
     }
 }
 
