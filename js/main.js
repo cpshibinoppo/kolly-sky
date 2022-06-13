@@ -1,9 +1,9 @@
-function menushow(){
+function menushow() {
     var show = document.getElementById('menumaindiv');
     show.style.visibility = 'visible';
     show.style.opacity = '1';
 }
-function closemenu(){
+function closemenu() {
     var show = document.getElementById('menumaindiv');
     show.style.visibility = 'hidden';
     show.style.opacity = '0';
@@ -15,7 +15,7 @@ var show3btn = document.getElementById('btn3');
 var carddisplay1 = document.getElementById('carddisplay1');
 var carddisplay2 = document.getElementById('carddisplay2');
 var carddisplay3 = document.getElementById('carddisplay3');
-function show1(){
+function show1() {
     btn1.classList.add("mystyle");
     btn2.classList.remove("mystyle");
     btn3.classList.remove("mystyle");
@@ -24,7 +24,7 @@ function show1(){
     carddisplay3.classList.remove("add");
 
 }
-function show2(){
+function show2() {
     btn1.classList.remove("btn1style");
     btn1.classList.remove("mystyle");
     btn1.classList.add("car1");
@@ -43,41 +43,41 @@ function show3() {
     carddisplay1.style.display = 'none';
     carddisplay2.classList.remove("add");
     carddisplay3.classList.add("add");
-  }
+}
 /* Tabs end */
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 30,
 });
-function lovecolor1(){
+function lovecolor1() {
     var one = document.getElementById('1');
-    if(one.style.color === 'black'){
+    if (one.style.color === 'black') {
         one.style.color = 'red';
-    }else if(one.style.color = 'red'){
+    } else if (one.style.color = 'red') {
         one.style.color = 'black';
     }
 }
-function lovecolor2(){
+function lovecolor2() {
     var one = document.getElementById('2');
-    if(one.style.color === 'black'){
+    if (one.style.color === 'black') {
         one.style.color = 'red';
-    }else if(one.style.color = 'red'){
+    } else if (one.style.color = 'red') {
         one.style.color = 'black';
     }
 }
-function lovecolor3(){
+function lovecolor3() {
     var one = document.getElementById('3');
-    if(one.style.color === 'black'){
+    if (one.style.color === 'black') {
         one.style.color = 'red';
-    }else if(one.style.color = 'red'){
+    } else if (one.style.color = 'red') {
         one.style.color = 'black';
     }
 }
-function lovecolor4(){
+function lovecolor4() {
     var one = document.getElementById('4');
-    if(one.style.color === 'black'){
+    if (one.style.color === 'black') {
         one.style.color = 'red';
-    }else if(one.style.color = 'red'){
+    } else if (one.style.color = 'red') {
         one.style.color = 'black';
     }
 }

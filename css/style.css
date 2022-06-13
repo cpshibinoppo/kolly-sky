@@ -790,9 +790,6 @@ header {
     text-align: -webkit-center;
 }
 
-/* .card1{
-    padding-left: 15px;
-} */
 .card img {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -801,21 +798,34 @@ header {
     text-align: center;
 }
 
+.card-text,
+.card-title {
+    text-transform: uppercase;
+}
+
 .card i {
     position: absolute;
     top: 10px;
     left: 10px;
     color: black;
 }
-.cardrow2{
+
+.cardrow2 {
     display: none !important;
     text-align: -webkit-center;
 }
+
 .cardrow3 {
     display: none !important;
     text-align: -webkit-center;
 }
-.add{
+
+.card-body a {
+    text-decoration: none;
+    color: #d2401e;
+}
+
+.add {
     display: flex !important;
 }
 
@@ -843,11 +853,43 @@ header {
         overflow-y: scroll;
         flex-wrap: nowrap !important;
     }
+
     .cardrow3 {
         white-space: nowrap;
         overflow-y: scroll;
         flex-wrap: nowrap !important;
     }
+}
+
+.allcollection-btn {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1;
+    padding: 22px 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    border-radius: 0;
+    background: #282828;
+    transition: background 0.7s ease;
+}
+
+.allcollection-btn-row {
+    text-align: center;
+}
+
+.view-all {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.view-all a {
+    text-decoration: none;
+}
+
+.allcollection-btn:hover {
+    background: #d2401e;
+    color: #fff;
 }
 
 /* case slider end */
