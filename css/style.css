@@ -1065,9 +1065,6 @@ header {
     display: block;
 }
 
-.brandrow {
-    justify-content: center;
-}
 
 .logo-wrapper a img {
     opacity: .5;
@@ -1127,11 +1124,19 @@ header {
     .logo-wrapper {
         width: calc(25% - 30px);
     }
+
+    .brandrow {
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 992px) {
     .logo-wrapper {
         width: calc(25% - 30px);
+    }
+
+    .brandrow {
+        justify-content: center;
     }
 }
 
@@ -1141,27 +1146,34 @@ header {
         margin-right: 30px;
         width: calc(16.66% - 30px);
     }
+
+    .brandrow {
+        justify-content: center;
+    }
 }
 
 /* brand end */
 /* happy customers start */
-.happyrow{
+.happyrow {
     text-align: center;
 }
-.happyrow h2{
+
+.happyrow h2 {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.happyheadpar{
+
+.happyheadpar {
     font-size: 24px;
 }
+
 .swiper {
     width: 100%;
     height: 100%;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -1179,34 +1191,40 @@ header {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-  }
+}
 
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  .bxs-quote-left{
+}
+
+.bxs-quote-left {
     font-size: 55px;
     color: #222;
-  }
-  .happyslidepar{
+}
+
+.happyslidepar {
     font-size: 18px;
     max-width: 60%;
     margin: 0 auto;
     margin-top: 20px;
     line-height: 35px;
-  }
-  .happy-conn h6{
+}
+
+.happy-conn h6 {
     color: #d2401e;
     text-transform: uppercase;
-  }
-  .happy-conn span{
+}
+
+.happy-conn span {
     text-transform: uppercase;
-  }
-  .happyspan{
+}
+
+.happyspan {
     color: #d2401e;
     text-decoration: underline;
-  }
+}
+
 /* happy customers end */
