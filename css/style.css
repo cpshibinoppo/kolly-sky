@@ -834,20 +834,17 @@ header {
 @media only screen and (max-width: 600px) {
     .cardrow1 {
         white-space: nowrap;
-        display: flex !important;
         overflow-y: scroll;
         flex-wrap: nowrap !important;
     }
 
     .cardrow2 {
         white-space: nowrap;
-        display: flex !important;
         overflow-y: scroll;
         flex-wrap: nowrap !important;
     }
     .cardrow3 {
         white-space: nowrap;
-        display: flex !important;
         overflow-y: scroll;
         flex-wrap: nowrap !important;
     }
