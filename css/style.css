@@ -894,12 +894,13 @@ header {
 
 /* case slider end */
 /* banner img start */
-.banner-ad{
+.banner-ad {
     position: relative;
     display: flex;
     align-items: center;
 }
-.banner-text{
+
+.banner-text {
     text-transform: uppercase;
     position: absolute;
     left: 18%;
@@ -910,81 +911,100 @@ header {
     position: absolute;
     text-align: center;
 }
-.main-title{
+
+.main-title {
     max-width: 70%;
 }
-.main-title h2{
+
+.main-title h2 {
     color: #fff;
     font-size: 40px;
     font-weight: 700;
 }
-.main-title p{
+
+.main-title p {
     color: #f7dc2f;
     font-size: 15px;
     margin-top: 15px;
     text-transform: uppercase;
     font-weight: 500;
 }
+
 @media only screen and (max-width: 600px) {
-    .bannerimagead{
+    .bannerimagead {
         margin-left: 0;
         height: 200px !important;
         object-fit: cover;
     }
-    .banner-text{
+
+    .banner-text {
         left: 15px;
         right: 15px;
     }
-    .main-title{
+
+    .main-title {
         max-width: 100%;
     }
-    .main-title h2{
+
+    .main-title h2 {
         font-size: 22px;
     }
-    .main-title p{
+
+    .main-title p {
         font-size: 14px;
         margin-top: 5px;
     }
 }
+
 @media only screen and (min-width: 768px) {
-    .bannerimagead{
+    .bannerimagead {
         margin-left: 0;
     }
-    .banner-text{
+
+    .banner-text {
         left: 25%;
     }
-    .main-title{
+
+    .main-title {
         max-width: 100%;
     }
-    .main-title h2{
+
+    .main-title h2 {
         font-size: 22px;
     }
-    .main-title p{
+
+    .main-title p {
         font-size: 14px;
         margin-top: 5px;
     }
 }
+
 @media only screen and (min-width: 992px) {
-    .bannerimagead{
+    .bannerimagead {
         margin-left: 0;
     }
-    .banner-text{
+
+    .banner-text {
         left: 25%;
     }
-    .main-title{
+
+    .main-title {
         max-width: 100%;
     }
-    .main-title h2{
+
+    .main-title h2 {
         font-size: 22px;
     }
-    .main-title p{
+
+    .main-title p {
         font-size: 14px;
         margin-top: 10px;
     }
 
 }
+
 @media only screen and (min-width: 1200px) {
-    .banner-text{
+    .banner-text {
         text-transform: uppercase;
         position: absolute;
         left: 18%;
@@ -995,19 +1015,22 @@ header {
         position: absolute;
         text-align: center;
     }
-    .main-title{
+
+    .main-title {
         max-width: 50%;
     }
-    .main-title h2{
+
+    .main-title h2 {
         color: #fff;
         font-size: 40px;
         font-weight: 700;
     }
-    .main-title p{
+
+    .main-title p {
         color: #f7dc2f;
         font-size: 15px;
         margin-top: 15px;
         text-transform: uppercase;
         font-weight: 500;
     }
-} 
+}
