@@ -84,7 +84,7 @@ function lovecolor4() {
 
 var swiper = new Swiper(".mySwiper", {
     navigation: {
-      nextEl: ".bx-right-arrow-alt",
-      prevEl: ".bx-left-arrow-alt",
+        nextEl: ".bx-right-arrow-alt",
+        prevEl: ".bx-left-arrow-alt",
     },
-  });
+});

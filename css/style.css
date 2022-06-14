@@ -1524,4 +1524,16 @@ header {
 
 /* ARTICLES AND STORY end */
 /* email and footer start */
+.news-title h6 {
+    max-width: 30%;
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.news-title span {
+    color: #d2401e;
+}
+
 /* email and footer end */
