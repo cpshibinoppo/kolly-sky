@@ -1389,3 +1389,11 @@ header {
 }
 
 /* happy customers end */
+/* ARTICLES AND STORY start */
+.storysection{
+    background-color: #f0f0f0;
+}
+.storyheadrow{
+    text-align: center;
+}
+/* ARTICLES AND STORY end */
