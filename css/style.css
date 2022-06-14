@@ -1166,6 +1166,7 @@ header {
 
 .happyheadpar {
     font-size: 24px;
+    color: #7f7f7f;
 }
 
 .swiper {
@@ -1206,16 +1207,23 @@ header {
 }
 
 .happyslidepar {
-    font-size: 18px;
-    max-width: 60%;
+    font-size: 24px;
+    max-width: 44%;
     margin: 0 auto;
-    margin-top: 20px;
     line-height: 35px;
+    color: #7f7f7f;
+    font-weight: 400;
+    margin-top: 40px;
+    line-height: 45px;
 }
 
 .happy-conn h6 {
+    font-size: 16px;
     color: #d2401e;
     text-transform: uppercase;
+    line-height: 1;
+    font-weight: 800;
+    margin-top: 50px;
 }
 
 .happy-conn span {
@@ -1225,6 +1233,147 @@ header {
 .happyspan {
     color: #d2401e;
     text-decoration: underline;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    display: none;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    display: none;
+}
+.happy-conn span {
+    color: #7f7f7f;
+}
+
+@media only screen and (max-width: 600px) {
+    .happyspan {
+        display: inline;
+    }
+
+    .happy-conn span {
+        display: inline;
+    }
+    .happyslidepar{
+        font-size: 14px;
+        max-width: 100%;
+        margin-top: 15px;
+        line-height: 30px;
+    }
+    .happyrow h2 {
+        font-size: 20px;
+    }
+    .happyheadpar {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .bxs-quote-left{
+        font-size: 30px;
+    }
+    .happy-conn h6 {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .bx-right-arrow-alt,.bx-left-arrow-alt{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .happyspan {
+        display: inline;
+    }
+
+    .happy-conn span {
+        display: inline;
+    }
+    .happyslidepar{
+        font-size: 14px;
+        max-width: 100%;
+        margin-top: 15px;
+        line-height: 30px;
+    }
+    .happyrow h2 {
+        font-size: 20px;
+    }
+    .happyheadpar {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .bxs-quote-left{
+        font-size: 30px;
+    }
+    .happy-conn h6 {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .bx-right-arrow-alt,.bx-left-arrow-alt{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .happyspan {
+        display: inline;
+    }
+
+    .happy-conn span {
+        display: inline;
+    }
+
+    .happyslidepar {
+        font-size: 18px;
+        max-width: 60%;
+        margin: 0 auto;
+        margin-top: 20px;
+        line-height: 35px;
+    }
+
+    .happyrow h2 {
+        font-size: 24px;
+    }
+
+    .happyheadpar {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .happy-conn h6 {
+        margin-top: 30px;
+    }
+
+    .happyslidepar {
+        font-size: 18px;
+        max-width: 60%;
+        margin-top: 20px;
+        line-height: 35px;
+    }
+
+    .happyspan {
+        display: inline;
+    }
+
+    .happy-conn span {
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .happy-conn h6 {
+        margin-top: 30px;
+    }
+
+    .happyslidepar {
+        font-size: 18px;
+        max-width: 60%;
+        margin-top: 20px;
+        line-height: 35px;
+    }
 }
 
 /* happy customers end */
