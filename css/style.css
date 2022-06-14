@@ -1244,10 +1244,13 @@ header {
 .swiper-rtl .swiper-button-prev:after {
     display: none;
 }
+
 .happy-conn span {
     color: #7f7f7f;
 }
-.bx-right-arrow-alt,.bx-left-arrow-alt{
+
+.bx-right-arrow-alt,
+.bx-left-arrow-alt {
     display: block;
 }
 
@@ -1259,27 +1262,34 @@ header {
     .happy-conn span {
         display: inline;
     }
-    .happyslidepar{
+
+    .happyslidepar {
         font-size: 14px;
         max-width: 100%;
         margin-top: 15px;
         line-height: 30px;
     }
+
     .happyrow h2 {
         font-size: 20px;
     }
+
     .happyheadpar {
         font-size: 16px;
         margin-top: 5px;
     }
-    .bxs-quote-left{
+
+    .bxs-quote-left {
         font-size: 30px;
     }
+
     .happy-conn h6 {
         margin-top: 15px;
         font-size: 14px;
     }
-    .bx-right-arrow-alt,.bx-left-arrow-alt{
+
+    .bx-right-arrow-alt,
+    .bx-left-arrow-alt {
         display: none;
     }
 
@@ -1293,27 +1303,34 @@ header {
     .happy-conn span {
         display: inline;
     }
-    .happyslidepar{
+
+    .happyslidepar {
         font-size: 14px;
         max-width: 100%;
         margin-top: 15px;
         line-height: 30px;
     }
+
     .happyrow h2 {
         font-size: 20px;
     }
+
     .happyheadpar {
         font-size: 16px;
         margin-top: 5px;
     }
-    .bxs-quote-left{
+
+    .bxs-quote-left {
         font-size: 30px;
     }
+
     .happy-conn h6 {
         margin-top: 15px;
         font-size: 14px;
     }
-    .bx-right-arrow-alt,.bx-left-arrow-alt{
+
+    .bx-right-arrow-alt,
+    .bx-left-arrow-alt {
         display: block;
     }
 }
@@ -1342,7 +1359,9 @@ header {
     .happyheadpar {
         font-size: 20px;
     }
-    .bx-right-arrow-alt,.bx-left-arrow-alt{
+
+    .bx-right-arrow-alt,
+    .bx-left-arrow-alt {
         display: block;
     }
 
@@ -1367,7 +1386,9 @@ header {
     .happy-conn span {
         display: inline;
     }
-    .bx-right-arrow-alt,.bx-left-arrow-alt{
+
+    .bx-right-arrow-alt,
+    .bx-left-arrow-alt {
         display: block;
     }
 }
@@ -1383,17 +1404,108 @@ header {
         margin-top: 20px;
         line-height: 35px;
     }
-    .bx-right-arrow-alt,.bx-left-arrow-alt{
+
+    .bx-right-arrow-alt,
+    .bx-left-arrow-alt {
         display: block;
     }
 }
 
 /* happy customers end */
 /* ARTICLES AND STORY start */
-.storysection{
+.storysection {
     background-color: #f0f0f0;
 }
-.storyheadrow{
+
+.cardrow-2 {
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+
+.storyheadrow {
     text-align: center;
 }
+
+.storyheadrow h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.card2 {
+    border: none;
+}
+
+.card-title2 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.btn-card2 {
+    color: #d2401e;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1;
+    padding: 14px 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    border-radius: 0;
+    background-color: #fff;
+    transition: all .3s ease-in-out 0s;
+}
+
+.card-title2 {
+    color: #282828;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+}
+
+.btncard2 {
+    margin-top: 30px;
+}
+
+.btn-card2:hover {
+    color: #fff;
+    background-color: #d2401e;
+}
+
+.card2 img {
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+.card2:hover img {
+    transform: scale(1.1);
+}
+
+.card2img {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .cardrow-2 {
+        white-space: nowrap;
+        overflow-y: scroll;
+        flex-wrap: nowrap !important;
+        text-align: -webkit-center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
 /* ARTICLES AND STORY end */
