@@ -1485,6 +1485,7 @@ header {
     position: relative;
     overflow: hidden;
 }
+
 @media only screen and (max-width: 600px) {
     .cardrow-2 {
         white-space: nowrap;
@@ -1493,6 +1494,7 @@ header {
         text-align: -webkit-center;
     }
 }
+
 @media only screen and (min-width: 600px) {
     .cardrow-2 {
         white-space: nowrap;
@@ -1500,17 +1502,24 @@ header {
         flex-wrap: nowrap !important;
         text-align: -webkit-center;
     }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
+
 @media only screen and (min-width: 768px) {
     .cardrow-2 {
         text-align: -webkit-center;
     }
 }
+
 @media only screen and (min-width: 992px) {
     .cardrow-2 {
         text-align: -webkit-center;
     }
 }
+
 @media only screen and (min-width: 1200px) {}
 
 /* ARTICLES AND STORY end */
