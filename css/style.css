@@ -1247,6 +1247,9 @@ header {
 .happy-conn span {
     color: #7f7f7f;
 }
+.bx-right-arrow-alt,.bx-left-arrow-alt{
+    display: block;
+}
 
 @media only screen and (max-width: 600px) {
     .happyspan {
@@ -1311,7 +1314,7 @@ header {
         font-size: 14px;
     }
     .bx-right-arrow-alt,.bx-left-arrow-alt{
-        display: none;
+        display: block;
     }
 }
 
@@ -1339,6 +1342,9 @@ header {
     .happyheadpar {
         font-size: 20px;
     }
+    .bx-right-arrow-alt,.bx-left-arrow-alt{
+        display: block;
+    }
 
 }
 
@@ -1361,6 +1367,9 @@ header {
     .happy-conn span {
         display: inline;
     }
+    .bx-right-arrow-alt,.bx-left-arrow-alt{
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1373,6 +1382,9 @@ header {
         max-width: 60%;
         margin-top: 20px;
         line-height: 35px;
+    }
+    .bx-right-arrow-alt,.bx-left-arrow-alt{
+        display: block;
     }
 }
 
