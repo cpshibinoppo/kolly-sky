@@ -782,7 +782,7 @@ header {
 /* phone slides end */
 /* case slider start */
 
-.card1 {
+.card {
     border: none !important;
 }
 
@@ -790,7 +790,7 @@ header {
     text-align: -webkit-center;
 }
 
-.card1 img {
+.card img {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -803,7 +803,7 @@ header {
     text-transform: uppercase;
 }
 
-.card1 i {
+.card i {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -830,13 +830,13 @@ header {
 }
 
 @media only screen and (min-width: 1200px) {
-    .card1 {
+    .card {
         width: 14rem !important;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    .card1 {
+    .card {
         width: 14rem !important;
     }
 }
