@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="css/collectionstyle.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="main">
         <header>
@@ -60,7 +62,26 @@
                                 <ul>
                                     <li><a onclick="menushow()"><i class='bx bx-menu'></i></a></li>
                                     <li><a href=""><i class='bx bx-user'></i><span> my account</span> </a></li>
-                                    <li><a href=""><i class='bx bx-search'></i><span>find your search</span> </a></li>
+                                    <a class="searcha" data-bs-toggle="collapse" href="#collapseExampletop"
+                                        role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <li><i class='bx bx-search'></i><span>find your search</span> </li>
+                                    </a>
+                                    <div class="collapse " id="collapseExampletop">
+                                        <div class="searchinputdiv">
+                                            <div class="searchdiv">
+                                                <nav class="navbar ">
+                                                    <div class="container-fluid">
+                                                        <form class="d-flex" role="search">
+                                                            <input class="form-control me-2" type="search"
+                                                                placeholder="Search" aria-label="Search">
+                                                            <button class="btn btn-outline-success"
+                                                                type="submit">Search</button>
+                                                        </form>
+                                                    </div>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <li><a href=""><i class='bx bx-cart'></i><span>cart</span> </a></li>
                                 </ul>
                             </div>
@@ -101,8 +122,12 @@
                 </ul>
             </nav>
         </div>
+        <div class="topbar">
+
+        </div>
     </div>
     <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>

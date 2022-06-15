@@ -74,6 +74,38 @@ header {
     opacity: 1;
 }
 
+.searcha {
+    color: black;
+    text-decoration: none;
+}
+
+.searcha:hover {
+    color: #d2401e;
+}
+
+.searchinputdiv {
+    position: absolute;
+    top: 40px;
+    z-index: 3;
+    left: 170px;
+}
+.searchdiv nav{
+    background: #fff;
+    border-radius: 10px;
+}
+
+
+.searchainput {
+    position: absolute;
+    top: 50px;
+    right: -50px;
+    border: none;
+    border-bottom: 1px solid #7f7f7f;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+
+}
+
 .dropdown-content a {
     text-decoration: none;
     color: #7f7f7f;
