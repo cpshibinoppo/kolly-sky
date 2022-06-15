@@ -118,6 +118,7 @@ header {
     font-size: 16px;
     padding-top: 5px;
     border-top: 1px solid #e2e2e2;
+    text-transform: uppercase;
 }
 
 .menuli a {
