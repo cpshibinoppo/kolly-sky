@@ -66,4 +66,7 @@
 .pricetospan{
     padding: 5px;
 }
+.flitercate3,.flitercate4,.flitercate5,.flitercate6,.flitercate7{
+    border-bottom: 1px solid black;
+}
 /* filter end */
