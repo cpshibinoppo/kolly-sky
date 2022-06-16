@@ -89,7 +89,8 @@ header {
     z-index: 3;
     left: 170px;
 }
-.searchdiv nav{
+
+.searchdiv nav {
     background: #fff;
     border-radius: 10px;
 }
