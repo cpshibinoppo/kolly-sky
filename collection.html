@@ -127,43 +127,81 @@
                 <div class="row">
                     <!-- filter start -->
                     <div class="col-3 filtercol">
-                        <h2>Filters</h2>
-                        <div class="categories1">
-                            <h6>Categories</h6>
-                            <form action="">
-                                <input class="filtersearchinput" type="search" placeholder="search...">
-                                <button class="filtersearch" type="submit"><i class='bx bx-search'></i></button>
-                            </form>
+                        <div class="flitercate1">
+                            <h2>Filters</h2>
+                            <div class="categories1">
+                                <h6>Categories</h6>
+                                <form action="">
+                                    <input class="filtersearchinput" type="search" placeholder="search...">
+                                    <button class="filtersearch" type="submit"><i class='bx bx-search'></i></button>
+                                </form>
+                                <ul class="scrollbar pt-2">
+                                    <li>
+                                        <input type="checkbox" class="cust-checkbox">
+                                        <span class="filter-name">mi</span>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="cust-checkbox">
+                                        <span class="filter-name">apple</span>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="cust-checkbox">
+                                        <span class="filter-name">oppo</span>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="cust-checkbox">
+                                        <span class="filter-name">vivo</span>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="cust-checkbox">
+                                        <span class="filter-name">sony</span>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="cust-checkbox">
+                                        <span class="filter-name">samsung</span>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="cust-checkbox">
+                                        <span class="filter-name">poco</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flitercate2 pt-2">
+                            <h6>Customer Ratings</h6>
                             <ul class="scrollbar pt-2">
                                 <li>
                                     <input type="checkbox" class="cust-checkbox">
-                                    <span class="filter-name">mi</span>
+                                    <span class="filter-name">4<i class='bx bxs-star'></i>& above</span>
                                 </li>
                                 <li>
                                     <input type="checkbox" class="cust-checkbox">
-                                    <span class="filter-name">apple</span>
+                                    <span class="filter-name">3<i class='bx bxs-star'></i>& above</span>
+
                                 </li>
                                 <li>
                                     <input type="checkbox" class="cust-checkbox">
-                                    <span class="filter-name">oppo</span>
+                                    <span class="filter-name">2<i class='bx bxs-star'></i>& above</span>
                                 </li>
                                 <li>
                                     <input type="checkbox" class="cust-checkbox">
-                                    <span class="filter-name">vivo</span>
-                                </li>
-                                <li>
-                                    <input type="checkbox" class="cust-checkbox">
-                                    <span class="filter-name">sony</span>
-                                </li>
-                                <li>
-                                    <input type="checkbox" class="cust-checkbox">
-                                    <span class="filter-name">samsung</span>
-                                </li>
-                                <li>
-                                    <input type="checkbox" class="cust-checkbox">
-                                    <span class="filter-name">poco</span>
+                                    <span class="filter-name">1<i class='bx bxs-star'></i>& above</span>
                                 </li>
                             </ul>
+                        </div>
+                        <div class="flitercate3 pt-2">
+                            <h6>Price</h6>
+                            <div class="pricerangediv">
+                                <input type="range" min="0" max="299" value="0" class="slider" id="pricerange">
+                                <div class="pricerangeshowdiv pt-1">
+                                    <div class="pricerangeshowmin">
+                                        <p>Min:<span id="pricerangeshow"></span></p>
+                                    </div><span class="pricetospan">to</span>
+                                    <div class="pricerangeshowmax">
+                                        <p>₹500</p>
+                                    </div>
+                                </div>
+                              </div>
                         </div>
                     </div>
                     <!-- filter end -->
@@ -171,8 +209,9 @@
             </div>
         </div>
     </div>
+     <script src="js/main.js"></script>
     <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
-    <script src="js/main.js"></script>
+   
 </body>
 
 </html>

@@ -1,3 +1,10 @@
+var slider = document.getElementById("pricerange");
+var output = document.getElementById("pricerangeshow");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
 function menushow() {
     var show = document.getElementById('menumaindiv');
     show.style.visibility = 'visible';

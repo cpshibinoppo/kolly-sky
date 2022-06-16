@@ -34,5 +34,36 @@
     padding-left: 10px;
     text-transform: capitalize;
 }
-
+.flitercate1{
+    border-bottom: 1px solid black;
+}
+.filter-name i{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.flitercate2{
+    border-bottom: 1px solid black;
+}
+.pricerangediv input{
+    width: 200px;
+}
+.pricerangeshowdiv{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+.pricerangeshowmin p{
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+.pricerangeshowmin p span{
+    padding-left: 3px;
+}
+.pricerangeshowmax p{
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+.pricetospan{
+    padding: 5px;
+}
 /* filter end */
