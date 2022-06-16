@@ -660,7 +660,15 @@
             <p>© 2022 Theme Powered by sky.</p>
         </section>
     </div>
-    <script src="js/main.js"></script>
+    <script>
+        var slider = document.getElementById("pricerange");
+        var output = document.getElementById("pricerangeshow");
+        output.innerHTML = slider.value;
+
+        slider.oninput = function () {
+            output.innerHTML = this.value;
+        }
+    </script>
     <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
 
 </body>
