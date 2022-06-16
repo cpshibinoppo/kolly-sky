@@ -1,0 +1,33 @@
+.buynowcontainer{
+    background-color: #f0f0f0;
+}
+.buynowcontainer1{
+    padding-top: 5rem;
+}
+.img-div img{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.buytopcon{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+}
+.buynowcon{
+    border-bottom: 1px solid black;
+}
+.colorselectdiv{
+    display: flex;
+    align-items: baseline;
+}
+.colorselectdiv img {
+    width: 30px;
+}
+.colorselectdiv ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.colorselectdiv ul li{
+padding-left: 10px;
+}
