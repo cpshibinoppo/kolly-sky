@@ -111,4 +111,30 @@
     border-bottom: 1px solid black;
 }
 
+@media only screen and (max-width: 600px) {
+.filter-name{
+    display: inline;
+}
+}
+@media only screen and (min-width: 600px) {
+.filter-name{
+    display: inline;
+}
+}
+@media only screen and (min-width: 768px) {
+.filter-name{
+    display: inline;
+}
+}
+@media only screen and (min-width: 992px) {
+.filter-name{
+    display: inline;
+}
+}
+@media only screen and (min-width: 1200px) {
+    .filter-name{
+        display: inline;
+    }
+}
+
 /* filter end */
