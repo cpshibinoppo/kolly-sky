@@ -131,7 +131,9 @@ display: inline;
 .pricemaindiv{
     border-bottom: 1px solid black;
 }
-
+.placedivorderbtn {
+    padding-bottom: 2rem;
+}
 @media only screen and (max-width: 600px) {
 .cartheadmaindiv h4{
     font-size: 18px;
@@ -145,6 +147,7 @@ font-size: 13px;
 .deliveryblock p,.deliveryblock span{
     font-size: 13px;
 }
+
 }
 
 @media only screen and (min-width: 600px) {
