@@ -1,0 +1,23 @@
+.cartheadmaindiv{
+    display: flex;
+}
+.addressdiv{
+    display: flex;
+    justify-content: space-between;
+}
+#addcart{
+    width: 50px;
+    text-align: center;
+}
+.addcartdiv button{
+    width: 28px;
+    height: 28px;
+    background: linear-gradient(#fff,#f9f9f9);
+    display: inline-block;
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50%;
+    padding-top: 1px;
+    line-height: 1;
+}
