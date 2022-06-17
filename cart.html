@@ -124,7 +124,7 @@
         </div>
         <div class="container">
             <div class="row py-5">
-                <div class="col-10">
+                <div class="col-12 col-md-12 col-lg-9 cartmaincoldiv">
                     <div class="cartheadmaindiv">
                         <div class="col-3">
                             <h4>My Cart(1)</h4>
@@ -140,9 +140,9 @@
                     </div>
                     <div class="cartshowdid">
                         <div class="col-2">
-                            <img src="img/phonecasehome/phon4.jpg" alt="">
+                            <img class="img-cart" src="img/phonecasehome/phon4.jpg" alt="">
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 cart-showcon">
                             <ul>
                                 <li>
                                     <h4>Google Pixel Casse black</h4>
@@ -165,11 +165,39 @@
                         <button onclick="increment()">+</button>
                         <input id="addcart" value="1" type="text" name="quantity" min="1" max="5" pattern="[0-9]*">
                         <button onclick="decrement()">-</button>
-                        <a href="">REMOVE</a>
+                        <div class="removediv">
+                            <a href="">Remove</a>
+                        </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 placediv">
+                        <div class="continue-shoppingdiv">
+                            <a href="">Continue shopping</a>
+                        </div>
+                        <div class="clear">
+                            <a href="">Clear Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-3 pricemaindivcol">
+                    <h5 class="pricederails">PRICE DETAILS</h5>
+                    <div class="pricemaindiv">
+                        <div class="pricediv">
+                            <p>price (1 item)</p><span>$500</span>
+                        </div>
+                        <div class="discountdiv">
+                            <p>Discount</p><span>-$200</span>
+                        </div>
+                        <div class="deliverydiv">
+                            <p>Delivery Charges</p><span>Free</span>
+                        </div>
+                    </div>
+                    <div class="totaldiv">
+                        <h5>Total Amount</h5><h5>$300</h5>
+                    </div>
+                    <p class="youwillp">You will save ₹200 on this order</p>
+                    <div class="placedivorderbtn">
                         <a href="">PLACE ORDER</a>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>

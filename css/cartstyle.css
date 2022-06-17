@@ -1,18 +1,33 @@
-.cartheadmaindiv{
+.cartheadmaindiv {
     display: flex;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
 }
-.addressdiv{
+
+.cartmaincoldiv {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.addressdiv {
     display: flex;
     justify-content: space-between;
 }
-#addcart{
+
+#addcart {
     width: 50px;
     text-align: center;
 }
-.addcartdiv button{
+
+.addcartdiv {
+    padding-top: 2rem;
+    display: flex;
+}
+
+.addcartdiv button {
     width: 28px;
     height: 28px;
-    background: linear-gradient(#fff,#f9f9f9);
+    background: linear-gradient(#fff, #f9f9f9);
     display: inline-block;
     border: 1px solid #c2c2c2;
     cursor: pointer;
@@ -20,4 +35,112 @@
     border-radius: 50%;
     padding-top: 1px;
     line-height: 1;
+}
+
+.cartshowdid .col-2 {
+    position: relative;
+}
+
+.img-cart {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.cartshowdid {
+    display: flex;
+    padding-top: 2rem;
+}
+.cartshowdid span{
+display: inline;
+}
+
+.cart-showcon ul {
+    list-style: none;
+}
+
+.placediv {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.removediv {
+    padding-left: 15px;
+   
+}
+
+.deliverdivchange a{
+    text-decoration: none;
+    color: #d2401e;
+}
+.removediv a{
+    color: #d2401e;
+    text-decoration: none;
+}
+.placedivorderbtn{
+    text-align: center;
+    padding-top: 1rem;
+}
+.placedivorderbtn a{
+    background-color: #d2401e;
+    padding: 8px 16px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.placediv a{
+    background-color: #d2401e;
+    padding: 8px 16px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.youwillp{
+    color: #d2401e;
+    padding-top: 1rem;
+}
+.pricediv,
+.discountdiv,
+.deliverydiv,
+.totaldiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricediv span,
+.discountdiv span,
+.deliverydiv span {
+    display: inline;
+    color: #d2401e;
+}
+.pricemaindivcol {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.pricederails{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+.totaldiv{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+.pricemaindiv{
+    border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+.cartheadmaindiv h4{
+    font-size: 18px;
+}
+.cart-showcon h4{
+    font-size: 18px;
+}
+}
+
+@media only screen and (min-width: 600px) {
+
 }
