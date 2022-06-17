@@ -91,3 +91,19 @@
     line-height: 3;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .loginheaddiv h2 {
+        font-size: 24px;
+    }
+
+    .newaccountdiv h4,
+    .loginheaddiv h5 {
+        font-size: 14px;
+    }
+
+    .signinbtndiv a,
+    .forgotbtndiv a {
+        padding: 10px 15px;
+    }
+}
