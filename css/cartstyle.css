@@ -4,7 +4,9 @@
     padding-bottom: 1rem;
     border-bottom: 1px solid black;
 }
-
+.cartrowdiv{
+    justify-content: space-around;
+}
 .cartmaincoldiv {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
