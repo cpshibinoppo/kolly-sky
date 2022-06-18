@@ -1,18 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/checkoutstyle.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="main">
         <div class="container">
-            <div class="row">
-                <div class="col-6">
+            <div class="row mainrowcheck">
+                <div class="showdropcheck">
+                    <a class="footercon2a" data-bs-toggle="collapse" href="#collapseExamplecheckshow" role="button"
+                        aria-expanded="false" aria-controls="collapseExample"><i class='bx bx-cart'></i> Show order
+                        summer<i class='bx bx-chevron-down'></i></a>
+                    <div class="collapse" id="collapseExamplecheckshow">
+                        <div class="col-12 col-md-12 col-lg-5 pt-5 priceshowcolblock">
+                            <div class="priceshowcoldiv">
+                                <div class="maintotal">
+                                    <div class="maintotalimg">
+                                        <img src="img/phonecasehome/phon1.webp" alt="">
+                                    </div>
+                                    <div class="maintotaltextmain">
+                                        <div class="maintotalimgtext">
+                                            <h6>iphone 12 mini case</h6>
+                                            <span>indianred</span>
+                                        </div>
+                                        <div class="maintotalimgtextprice">
+                                            <h6>$214.00</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nexttotal1">
+                                    <h6>subtotal</h6>
+                                    <h6>$214.00</h6>
+                                </div>
+                                <div class="nexttotal2">
+                                    <h6>Shipping</h6>
+                                    <h6>Free</h6>
+                                </div>
+                                <div class="nexttotal3">
+                                    <h4>Total</h4>
+                                    <h4><span>RS</span>$214.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 pt-5">
                     <h4>Contact information</h4>
                     <div class="contactinfomiandiv">
                         <div class="contactinfoimgdiv">
@@ -22,13 +62,85 @@
                             <p>shibin cp(cpshibinsky@gmail.com)</p><span>Log out</span>
                         </div>
                     </div>
-                    <h4>Shipping address</h4>
+                    <h4 class="shippinhead">Shipping address</h4>
                     <div class="addressfrommaindiv">
                         <label for="">Saved addresses</label>
                         <select class="form-selectt" aria-label="Default select example">
-                            <option selected>Use a new address</option>
+                            <option>Use a new address</option>
                             <option value="1">cphouse</option>
-                          </select>
+                        </select>
+                    </div>
+                    <div class="addressfrommaindiv">
+                        <label for="">Country/region</label>
+                        <select class="form-selectt" aria-label="Default select example">
+                            <option>India</option>
+                            <option>Brazil</option>
+                        </select>
+                    </div>
+                    <div class="namefrommaindiv">
+                        <div class="firstnamediv">
+                            <input class="firstnameinput" type="text" placeholder="First name(optional)">
+                        </div>
+                        <div class="lastnamediv">
+                            <input class="lastnameinput" type="text" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="addressinputmaindiv">
+                        <div class="addressdiv">
+                            <input class="firstnameinput" type="text" placeholder="Number">
+                        </div>
+                    </div>
+                    <div class="addressinputmaindiv">
+                        <div class="addressdiv">
+                            <input class="firstnameinput" type="text" placeholder="Address">
+                        </div>
+                    </div>
+                    <div class="addressinputmaindiv">
+                        <div class="addressdiv">
+                            <input class="firstnameinput" type="text" placeholder="Apartment,suite,etc.">
+                        </div>
+                    </div>
+                    <div class="namefrommaindiv">
+                        <div class="firstnamediv">
+                            <input class="firstnameinput" type="text" placeholder="City">
+                        </div>
+                        <div class="lastnamediv">
+                            <input class="lastnameinput" type="text" placeholder="Postal code">
+                        </div>
+                    </div>
+                    <div class="checkbtndiv">
+                        <button class="contimueshippingbtn">Continue to shipping</button>
+                        <a class="returncartbtn" href="">Return to cart</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-5 pt-5 priceshowcol">
+                    <div class="priceshowcoldiv">
+                        <div class="maintotal">
+                            <div class="maintotalimg">
+                                <img src="img/phonecasehome/phon1.webp" alt="">
+                            </div>
+                            <div class="maintotaltextmain">
+                                <div class="maintotalimgtext">
+                                    <h6>iphone 12 mini case</h6>
+                                    <span>indianred</span>
+                                </div>
+                                <div class="maintotalimgtextprice">
+                                    <h6>$214.00</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nexttotal1">
+                            <h6>subtotal</h6>
+                            <h6>$214.00</h6>
+                        </div>
+                        <div class="nexttotal2">
+                            <h6>Shipping</h6>
+                            <h6>Free</h6>
+                        </div>
+                        <div class="nexttotal3">
+                            <h4>Total</h4>
+                            <h4><span>RS</span>$214.00</h4>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -36,4 +148,5 @@
     </div>
     <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
 </body>
+
 </html>
