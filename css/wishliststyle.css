@@ -1,43 +1,51 @@
-.wishlistcontainer{
+.wishlistcontainer {
     padding-top: 7rem;
     padding-bottom: 5rem;
 }
-.wishlistheaddiv{
+
+.wishlistheaddiv {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 15px;
     border: 1px solid #e2e2e2;
 }
-.wishlistheaddiv h6{
+
+.wishlistheaddiv h6 {
     margin-bottom: 0;
 }
-.wishlistheaddiv a{
+
+.wishlistheaddiv a {
     color: #d2401e;
 }
-.wishlistimgmiandiv ul{
+
+.wishlistimgmiandiv ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
-.wishlistimgli{
+
+.wishlistimgli {
     width: 50%;
     display: flex;
     align-items: center;
 }
-.wishlistimgmiandiv ul li .wishlistimg img{
+
+.wishlistimgmiandiv ul li .wishlistimg img {
     width: 120px;
 }
-.wishlistaddli{
+
+.wishlistaddli {
     width: 25%;
     display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: column;
 }
-.wislistpriceli{
+
+.wislistpriceli {
     width: 25%;
     display: flex;
     text-align: right;
@@ -47,34 +55,92 @@
     border: 1px solid #e2e2e2;
     padding-right: 15px;
 }
-.wishlistimgli{
+
+.wishlistimgli {
     border: 1px solid #e2e2e2;
 }
-.wishlistimgtext a{
+
+.wishlistimgtext a {
     text-decoration: none;
     color: #7f7f7f;
 }
-.wishlistimgtext a:hover{
+
+.wishlistimgtext a:hover {
     color: #d2401e;
 }
-.continueshoppingdiv{
+
+.continueshoppingdiv {
     border: 1px solid #e2e2e2;
     padding: 10px 15px;
     display: flex;
     justify-content: space-between;
 }
-.continueshoppingdiv a{
+
+.continueshoppingdiv a {
     color: #7f7f7f;
 }
-.continueshoppingdiv a:hover{
+
+.continueshoppingdiv a:hover {
     color: #d2401e;
 }
-.wishlistaddli{
+
+.wishlistaddli {
     border: 1px solid #e2e2e2;
 }
-.wishlistaddli a{
+
+.wishlistaddli a {
     color: #7f7f7f;
 }
-.wishlistaddli a:hover{
+
+.wishlistaddli a:hover {
     color: #d2401e;
+}
+
+.removecollg {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .wishlistaddli,
+    .wislistpriceli {
+        display: none;
+    }
+
+    .removecollg {
+        display: block;
+    }
+
+    .wishlistimgli {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .wishlistaddli {
+        display: none;
+    }
+
+    .removecollg {
+        display: block;
+    }
+
+    .wishlistimgli {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .wishlistaddli {
+        display: none;
+    }
+
+    .removecollg {
+        display: block;
+    }
+
+    .wishlistimgli {
+        width: 75%;
+    }
+
 }
