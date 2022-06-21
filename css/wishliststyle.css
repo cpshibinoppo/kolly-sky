@@ -95,52 +95,56 @@
 .wishlistaddli a:hover {
     color: #d2401e;
 }
-
-.removecollg {
+.phoneremove{
+    display: none;
+}
+.phoneremove1{
     display: none;
 }
 
 @media only screen and (max-width: 600px) {
-
-    .wishlistaddli,
-    .wislistpriceli {
-        display: none;
-    }
-
-    .removecollg {
+    .phoneremove1{
         display: block;
     }
-
-    .wishlistimgli {
+    .phoneremove{
+        display: block;
+    }
+    .remove1{
+        display: none;
+    }
+    .remove2{
+        display: none;
+    }
+    .removemain{
         width: 100%;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    .wishlistaddli {
-        display: none;
-    }
-
-    .removecollg {
-        display: block;
-    }
-
-    .wishlistimgli {
-        width: 75%;
-    }
+   
 }
 
 @media only screen and (min-width: 768px) {
-    .wishlistaddli {
-        display: none;
-    }
-
-    .removecollg {
+    .phoneremove1{
         display: block;
     }
-
-    .wishlistimgli {
+    .remove1{
+        display: none;
+    }
+    .removemain{
         width: 75%;
     }
 
+} 
+@media only screen and (min-width: 992px) {
+    .phoneremove1{
+        display: none;
+    }
+    .remove1{
+        display: flex;
+    }
+    .removemain{
+        width: 50%;
+    }
+    
 }
