@@ -236,6 +236,9 @@ select option:checked {
     .contimueshippingbtn {
         padding: 1em 0.4em;
     }
+    .checkbtndiv {
+        padding-bottom: 3rem;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -259,6 +262,9 @@ select option:checked {
     .showdropcheck {
         display: block;
     }
+    .checkbtndiv {
+        padding-bottom: 3rem;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -281,6 +287,9 @@ select option:checked {
 
     .showdropcheck {
         display: block;
+    }
+    .checkbtndiv {
+        padding-bottom: 2rem;
     }
 }
 
